@@ -87,6 +87,26 @@ nav {
   color: #ececec;
 }
 
+.udforsk {
+  font-family: Earwig Factory, sans-serif;
+}
+
+.gray1 {
+  color: #302e2e;
+}
+
+.gray2 {
+  color: #363434;
+}
+
+.gray3 {
+  color: #231f20;
+}
+
+.gray4 {
+  color: #636466;
+}
+
 @media screen and (max-width: 400px) {
   /* Header */
   .menu {
@@ -157,5 +177,16 @@ nav {
     line-height: 24px;
     padding-bottom: 10%;
     padding-right: 35%;
+  }
+
+  .udforsk {
+    background-image: url(imgs/udforsk\ bg\ mobil.png);
+    background-size: 400px auto;
+    height: 153px;
+    text-align: center;
+  }
+
+  .udforsk span {
+    font-size: 50px;
   }
 }
