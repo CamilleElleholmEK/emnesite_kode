@@ -107,6 +107,42 @@ nav {
   color: #636466;
 }
 
+.card_box {
+  font-family: League Spartan, sans-serif;
+  color: #0d0d0f;
+  background-color: #ececec;
+  box-shadow: -8px 8px 10px rgba(0, 0, 0, 0.686);
+}
+
+.card_box p {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.grid_1-1-1-1 {
+  background-color: #0d0d0f;
+}
+
+.grid_1-1-1-1 a {
+  font-family: Special Elite, serif;
+  color: #ececec;
+  text-decoration: none;
+  display: inline-block;
+  background-color: #700303;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: -8px 8px 10px rgba(0, 0, 0, 0.686);
+}
+
+.grid_1-1-1-1 a:hover {
+  background-color: #b31312;
+}
+
 @media screen and (max-width: 400px) {
   /* Header */
   .menu {
@@ -188,5 +224,27 @@ nav {
 
   .udforsk span {
     font-size: 50px;
+  }
+
+  .card_box {
+    margin-left: 60px;
+    margin-right: 60px;
+    width: 280px;
+  }
+
+  .card_box p {
+    font-size: 22px;
+    line-height: 24px;
+  }
+
+  .grid_1-1-1-1 div {
+    text-align: center;
+  }
+
+  .grid_1-1-1-1 a {
+    font-size: 22px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    width: 280px;
   }
 }
