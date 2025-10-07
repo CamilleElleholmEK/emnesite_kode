@@ -216,7 +216,8 @@ nav {
   }
 
   .udforsk {
-    background-image: url(imgs/udforsk\ bg\ mobil.png);
+    background-image: url(imgs/udforsk\ bg\ mobil.png),
+      linear-gradient(#0b0d0f, #0b0d0f);
     background-size: 400px auto;
     height: 153px;
     text-align: center;
@@ -241,10 +242,50 @@ nav {
     text-align: center;
   }
 
+  .grid_1-1-1-1 {
+    padding-top: 50px;
+  }
+
   .grid_1-1-1-1 a {
     font-size: 22px;
     margin-top: 15px;
     margin-bottom: 30px;
     width: 280px;
+  }
+
+  /* Footer */
+
+  footer {
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #700303;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    font-family: League Spartan, sans-serif;
+    color: #ececec;
+  }
+
+  footer a {
+    color: #ececec;
+    text-decoration: none;
+  }
+
+  footer a:hover {
+    color: #c6c5c5;
+  }
+
+  footer li {
+    padding-top: 7px;
+  }
+
+  footer .logo img {
+    height: 40px;
+    width: auto;
+  }
+
+  .bot_nav {
+    list-style-type: none;
   }
 }
