@@ -4,6 +4,8 @@
   box-sizing: border-box;
 }
 
+/* Header */
+
 header {
   position: sticky;
   top: 0;
@@ -11,12 +13,12 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  background-color: #ffffff;
+  background-color: #700303;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
 }
 
 .logo img {
-  width: 50px;
+  width: auto;
   height: 50px;
 }
 
@@ -30,6 +32,7 @@ nav {
   list-style: none;
   margin: 0;
   padding: 0;
+  font-family: Special Elite;
 }
 
 .menu li {
@@ -43,14 +46,14 @@ nav {
 .menu a {
   display: block;
   padding: 10px;
-  color: #333333;
+  color: #ececec;
   text-decoration: none;
   transition: color 0.3s;
   text-align: end;
 }
 
 .menu a:hover {
-  color: #ff0000;
+  color: #b31312;
 }
 
 .burger {
@@ -63,14 +66,29 @@ nav {
   display: block;
   width: 100%;
   height: 2px;
-  background-color: #333333;
+  background-color: #ececec;
   margin-bottom: 5px;
   transition: 0.2s linear;
 }
 .burger {
   display: none;
 }
-@media screen and (max-width: 800px) {
+
+/* Forside */
+
+.velkommen h1 {
+  font-family: Special Elite;
+  color: #ececec;
+  font-weight: 400;
+}
+
+.velkommen p {
+  font-family: League Spartan;
+  color: #ececec;
+}
+
+@media screen and (max-width: 400px) {
+  /* Header */
   .menu {
     display: none;
   }
@@ -96,7 +114,7 @@ nav {
 
   nav.active .menu {
     display: block;
-    background-color: #ffffff;
+    background-color: #700303;
     position: absolute;
     top: 94px;
     left: 0;
@@ -111,5 +129,33 @@ nav {
 
   nav.active .menu a {
     font-size: 24px;
+  }
+
+  /* Forside */
+
+  .velkommen {
+    background-image: url(imgs/mobil\ baggrund.png);
+    background-size: 400px auto;
+    padding-left: 5%;
+    padding-top: 10%;
+    height: 798px;
+  }
+
+  .velkommen img {
+    height: auto;
+  }
+
+  .velkommen h1 {
+    font-size: 35px;
+    padding-bottom: 10%;
+    padding-right: 10%;
+    line-height: 37px;
+  }
+
+  .velkommen p {
+    font-size: 22px;
+    line-height: 24px;
+    padding-bottom: 10%;
+    padding-right: 35%;
   }
 }
