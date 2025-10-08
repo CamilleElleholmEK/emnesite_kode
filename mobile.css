@@ -1,0 +1,116 @@
+@media screen and (max-width: 400px) {
+  /* Header */
+  .menu {
+    display: none;
+  }
+  .burger {
+    display: block;
+    background-color: transparent;
+    border: 0;
+  }
+  .burger.active .line:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+    transition: 0.2s linear;
+  }
+
+  .burger.active .line:nth-child(2) {
+    opacity: 0;
+    transition: 0.15s linear;
+  }
+
+  .burger.active .line:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+    transition: 0.2s linear;
+  }
+
+  nav.active .menu {
+    display: block;
+    background-color: #700303;
+    position: absolute;
+    top: 94px;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+  }
+
+  nav.active .menu li {
+    margin: 10px 20px;
+  }
+
+  nav.active .menu a {
+    font-size: 24px;
+  }
+
+  /* Forside */
+
+  .velkommen {
+    background-image: url(imgs/mobil\ baggrund.png);
+    background-size: 400px auto;
+    height: 798px;
+    padding-left: 5%;
+    padding-top: 10%;
+  }
+
+  .velkommen img {
+    height: auto;
+  }
+
+  .velkommen h1 {
+    font-size: 35px;
+    line-height: 37px;
+    padding-bottom: 10%;
+    padding-right: 10%;
+  }
+
+  .velkommen p {
+    font-size: 22px;
+    line-height: 24px;
+    padding-bottom: 10%;
+    padding-right: 35%;
+  }
+
+  .udforsk {
+    background-image: url(imgs/udforsk\ bg\ mobil.png),
+      linear-gradient(#0b0d0f, #0b0d0f);
+    background-size: 400px auto;
+    height: 153px;
+    text-align: center;
+  }
+
+  .udforsk span {
+    font-size: 50px;
+  }
+
+  .card_box {
+    margin-left: 60px;
+    margin-right: 60px;
+    width: 280px;
+  }
+
+  .card_box p {
+    font-size: 22px;
+    line-height: 24px;
+  }
+
+  .grid_1-1-1-1 div {
+    text-align: center;
+  }
+
+  .grid_1-1-1-1 {
+    padding-top: 50px;
+  }
+
+  .grid_1-1-1-1 a {
+    font-size: 22px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    width: 280px;
+  }
+
+  /*********************************** Footer ************************/
+
+  footer .logo img {
+    height: 40px;
+  }
+}

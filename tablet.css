@@ -1,0 +1,109 @@
+@media screen and (min-width: 401px) and (max-width: 1000px) {
+  /*********************************************** Header ***********************************************/
+  .menu {
+    display: none;
+  }
+  .burger {
+    display: block;
+    background-color: transparent;
+    border: 0;
+  }
+  .burger.active .line:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+    transition: 0.2s linear;
+  }
+
+  .burger.active .line:nth-child(2) {
+    opacity: 0;
+    transition: 0.15s linear;
+  }
+
+  .burger.active .line:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+    transition: 0.2s linear;
+  }
+
+  nav.active .menu {
+    display: block;
+    background-color: #700303;
+    position: absolute;
+    top: 94px;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+  }
+
+  nav.active .menu li {
+    margin: 10px 20px;
+  }
+
+  nav.active .menu a {
+    font-size: 24px;
+  }
+
+  /******************************************** Forside ***************************************/
+
+  .velkommen {
+    background-image: url(imgs/tablet\ bg.png);
+    background-size: auto;
+    background-position: right;
+    height: 1000px;
+    padding-left: 5%;
+    padding-top: 10%;
+  }
+
+  .velkommen h1 {
+    font-size: 50px;
+    line-height: 52px;
+    padding-bottom: 6%;
+    padding-right: 12%;
+  }
+
+  .velkommen p {
+    font-size: 28px;
+    line-height: 30px;
+    padding-bottom: 8%;
+    padding-right: 45%;
+  }
+
+  .udforsk {
+    background-image: url(imgs/udforsk\ bg\ tablet.png),
+      linear-gradient(#0b0d0f, #0b0d0f);
+    background-size: auto;
+    height: 240px;
+    text-align: center;
+  }
+
+  .udforsk span {
+    font-size: 60px;
+  }
+
+  .card_box {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+
+  .card_box p {
+    font-size: 28px;
+    line-height: 30px;
+  }
+
+  .grid_1-1-1-1 div {
+    text-align: center;
+  }
+
+  .grid_1-1-1-1 {
+    padding-top: 50px;
+  }
+
+  .grid_1-1-1-1 a {
+    font-size: 28px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+
+  /********************************************* Footer *********************************************/
+}
