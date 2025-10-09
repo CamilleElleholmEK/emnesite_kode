@@ -1,0 +1,109 @@
+@media screen and (min-width: 1201px) {
+  /******************************* Forside **********************************/
+
+  .velkommen {
+    background-image: url(imgs/desktop\ baggrund.png);
+    background-size: auto;
+    background-position: right;
+    height: 1090px;
+    padding-left: 5%;
+    padding-top: 10%;
+  }
+
+  .velkommen h1 {
+    font-size: 75px;
+    line-height: 78px;
+    padding-bottom: 10%;
+    padding-right: 45%;
+  }
+
+  .velkommen p {
+    font-size: 32px;
+    line-height: 35px;
+    padding-bottom: 5%;
+    padding-right: 45%;
+  }
+
+  .udforsk {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(imgs/udforsk\ bg\ desktop.png),
+      linear-gradient(#0b0d0f, #0b0d0f);
+    background-size: auto;
+    height: 258px;
+    text-align: center;
+  }
+
+  .udforsk span {
+    font-size: 90px;
+  }
+
+  .ransom {
+    display: inline;
+  }
+
+  #space {
+    font-size: 40px;
+  }
+
+  .card_box {
+    margin-left: 1%;
+    margin-right: 1%;
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .grid_cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 10px;
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .card_box p {
+    font-size: 30px;
+    line-height: 32px;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .grid_cards div {
+    padding: 10px;
+  }
+
+  .grid_cards a {
+    font-size: 32px;
+    margin-top: 35px;
+    margin-bottom: 30px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+
+  /*********************************** Footer ************************/
+
+  .bot_nav {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 25px;
+  }
+
+  .bot_menu {
+    display: flex;
+  }
+
+  footer .logo img {
+    width: 200px;
+    height: auto;
+  }
+
+  footer li {
+    margin-top: 14px;
+  }
+}

@@ -1,5 +1,5 @@
 @media screen and (max-width: 400px) {
-  /* Header */
+  /********************************* Header ************************************/
   .menu {
     display: none;
   }
@@ -79,7 +79,11 @@
   }
 
   .udforsk span {
-    font-size: 50px;
+    font-size: 52px;
+  }
+
+  #space {
+    display: none;
   }
 
   .card_box {
@@ -91,21 +95,29 @@
   .card_box p {
     font-size: 22px;
     line-height: 24px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 
-  .grid_1-1-1-1 div {
+  .grid_cards div {
     text-align: center;
   }
 
-  .grid_1-1-1-1 {
+  .grid_cards {
     padding-top: 50px;
   }
 
-  .grid_1-1-1-1 a {
+  .grid_cards a {
     font-size: 22px;
     margin-top: 15px;
     margin-bottom: 30px;
     width: 280px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 
   /*********************************** Footer ************************/

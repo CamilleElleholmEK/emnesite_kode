@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mobile.css" />
     <link rel="stylesheet" href="tablet.css" />
+    <link rel="stylesheet" href="desktop.css" />
     <meta name="robots" content="noindex" />
     <!----------------------------------------------- Fonts ----------------------------------------------->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -60,7 +61,7 @@
       </section>
       <!---------------------------------------------- Udforsk ----------------------------------------->
       <section class="udforsk">
-        <h2>
+        <h2 class="ransom">
           <span class="gray1">U</span>
           <span class="gray2">d</span>
           <span class="gray3">F</span>
@@ -69,7 +70,8 @@
           <span class="gray1">s</span>
           <span class="gray4">K</span>
         </h2>
-        <h2>
+        <span id="space">kl</span>
+        <h2 class="ransom">
           <span class="gray3">A</span>
           <span class="gray1">R</span>
           <span class="gray2">k</span>
@@ -80,13 +82,12 @@
         </h2>
       </section>
       <!------------------------------------------ Cards ----------------------------------------------------->
-      <section class="grid_1-1-1-1">
+      <section class="grid_cards">
         <div>
           <div class="card_box">
             <p>
-              Her kan du dykke ned i de mange historier der er blevet fortalt.
-              Med sortering og filtre er det let at finde præcis det afsnit du
-              leder efter.
+              Dyk ned i de mange historier der er blevet fortalt. Med sortering
+              og filtre er det let at finde præcis det afsnit du leder efter.
             </p>
           </div>
           <a href="arkiv.html">Afsnit-arkivet</a>
@@ -104,7 +105,7 @@
           <div class="card_box">
             <p>
               Læs om processen bag siden. Alt fra indsamling af data, AI, kode,
-              design og rettelser.
+              design og rettelser. Indsæt mere tekst her.
             </p>
           </div>
           <a href="process.html">Processen</a>
@@ -127,23 +128,25 @@
           <img src="imgs/arkiv_logo.png" alt="Logo - Mørkearkivet" />
         </a>
       </div>
-      <div>
-        <ul class="bot_nav">
-          <li class="bold">Udforsk</li>
-          <li><a href="arkiv.html">Afsnit-arkivet</a></li>
-          <li><a href="anbefalinger.html">Anbefalinger</a></li>
-          <li><a href="process.html">Processen</a></li>
-          <li><a href="om.html">Om true crime</a></li>
-        </ul>
-      </div>
-      <div>
-        <ul class="bot_nav">
-          <li class="bold">Kontakt</li>
-          <li>Facebook</li>
-          <li>Instagram</li>
-          <li>Email</li>
-          <li><a href="/">Meld fejl på siden</a></li>
-        </ul>
+      <div class="bot_menu">
+        <div>
+          <ul class="bot_nav">
+            <li class="bold">Udforsk</li>
+            <li><a href="arkiv.html">Afsnit-arkivet</a></li>
+            <li><a href="anbefalinger.html">Anbefalinger</a></li>
+            <li><a href="process.html">Processen</a></li>
+            <li><a href="om.html">Om true crime</a></li>
+          </ul>
+        </div>
+        <div>
+          <ul class="bot_nav">
+            <li class="bold">Kontakt</li>
+            <li>Facebook</li>
+            <li>Instagram</li>
+            <li>Email</li>
+            <li><a href="/">Meld fejl på siden</a></li>
+          </ul>
+        </div>
       </div>
     </footer>
     <script src="menu.js"></script>

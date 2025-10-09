@@ -1,4 +1,4 @@
-@media screen and (min-width: 401px) and (max-width: 1000px) {
+@media screen and (min-width: 401px) and (max-width: 1200px) {
   /*********************************************** Header ***********************************************/
   .menu {
     display: none;
@@ -46,6 +46,7 @@
 
   .velkommen {
     background-image: url(imgs/tablet\ bg.png);
+    /* ÆNDRE BAGGRUND!!!! */
     background-size: auto;
     background-position: right;
     height: 1000px;
@@ -79,6 +80,10 @@
     font-size: 60px;
   }
 
+  #space {
+    display: none;
+  }
+
   .card_box {
     margin-left: 15%;
     margin-right: 15%;
@@ -87,23 +92,50 @@
   .card_box p {
     font-size: 28px;
     line-height: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 
-  .grid_1-1-1-1 div {
+  .grid_cards div {
     text-align: center;
   }
 
-  .grid_1-1-1-1 {
+  .grid_cards {
     padding-top: 50px;
   }
 
-  .grid_1-1-1-1 a {
+  .grid_cards a {
     font-size: 28px;
     margin-top: 25px;
     margin-bottom: 30px;
     margin-left: 15%;
     margin-right: 15%;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 
   /********************************************* Footer *********************************************/
+
+  .bot_nav {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 25px;
+  }
+
+  footer li {
+    margin-top: 10px;
+  }
+
+  .bot_menu {
+    display: flex;
+  }
+
+  footer .logo img {
+    width: 200px;
+    height: auto;
+  }
 }
