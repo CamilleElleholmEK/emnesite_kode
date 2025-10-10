@@ -42,7 +42,7 @@
     font-size: 24px;
   }
 
-  /* Forside */
+  /******************************************* Forside ****************************************************/
 
   .velkommen {
     background-image: url(imgs/mobil\ baggrund.png);
@@ -118,6 +118,12 @@
     padding-right: 50px;
     padding-top: 10px;
     padding-bottom: 10px;
+  }
+
+  /**************************************** Arkiv ******************************************/
+
+  .filtre_placeholder {
+    display: none;
   }
 
   /*********************************** Footer ************************/

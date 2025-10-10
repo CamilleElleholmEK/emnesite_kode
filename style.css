@@ -136,6 +136,32 @@ nav {
   background-color: #b31312;
 }
 
+/******************************************* Arkiv ***************************************/
+
+h1 {
+  font-family: Special Elite, serif;
+  color: #ececec;
+  text-align: center;
+}
+
+.grid_1-2-1 p {
+  font-family: Special Elite, serif;
+  color: #ececec;
+}
+
+.afsnit_resultater_titel h2 {
+  font-family: Special Elite, serif;
+  color: #0d0d0f;
+}
+
+.afsnit_resultater_titel a {
+  text-decoration: underline;
+  text-decoration-color: #0d0d0f;
+}
+
+.filtre {
+}
+
 /****************************************** Footer **********************************/
 
 footer {
