@@ -1,4 +1,4 @@
-@media screen and (min-width: 401px) and (max-width: 1200px) {
+@media screen and (min-width: 601px) and (max-width: 1200px) {
   /*********************************************** Header ***********************************************/
   .menu {
     display: none;
@@ -45,31 +45,31 @@
   /******************************************** Forside ***************************************/
 
   .velkommen {
-    background-image: url(imgs/tablet\ bg.png);
-    /* ÆNDRE BAGGRUND!!!! */
+    background-image: url(imgs/medium/forside\ bg\ tablet.png);
     background-size: auto;
     background-position: right;
-    height: 1000px;
+    height: 1100px;
     padding-left: 5%;
     padding-top: 10%;
   }
 
   .velkommen h1 {
-    font-size: 50px;
+    font-size: 60px;
     line-height: 52px;
     padding-bottom: 6%;
     padding-right: 12%;
+    text-align: left;
   }
 
   .velkommen p {
-    font-size: 28px;
-    line-height: 30px;
-    padding-bottom: 8%;
+    font-size: 32px;
+    line-height: 35px;
+    padding-bottom: 6%;
     padding-right: 45%;
   }
 
   .udforsk {
-    background-image: url(imgs/udforsk\ bg\ tablet.png),
+    background-image: url(imgs/medium/udforsk\ bg\ tablet.png),
       linear-gradient(#0b0d0f, #0b0d0f);
     background-size: auto;
     height: 240px;
@@ -77,7 +77,7 @@
   }
 
   .udforsk span {
-    font-size: 60px;
+    font-size: 70px;
   }
 
   #space {

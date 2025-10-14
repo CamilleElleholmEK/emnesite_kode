@@ -76,6 +76,14 @@ nav {
 
 /********************************************* Forside **************************************/
 
+/* .forside {
+  background-image: url(imgs/basis/black_texture_seamless_512.webp);
+  background-repeat: repeat;
+  background-size: auto;
+  background-attachment: fixed;
+  background-color: #0d0d0f;
+} */
+
 .velkommen h1 {
   font-family: Special Elite;
   color: #ececec;
@@ -159,7 +167,15 @@ h1 {
   text-decoration-color: #0d0d0f;
 }
 
-.filtre {
+.filtre,
+.søg,
+.sorter {
+  background-color: #0d0d0f;
+}
+
+.arkiv {
+  width: auto;
+  background-image: url(imgs/beton.png);
 }
 
 /****************************************** Footer **********************************/

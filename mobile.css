@@ -1,4 +1,4 @@
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
   /********************************* Header ************************************/
   .menu {
     display: none;
@@ -45,8 +45,8 @@
   /******************************************* Forside ****************************************************/
 
   .velkommen {
-    background-image: url(imgs/mobil\ baggrund.png);
-    background-size: 400px auto;
+    background-image: url(imgs/small/mobil\ baggrund.png);
+    background-size: 600px auto;
     height: 798px;
     padding-left: 5%;
     padding-top: 10%;
@@ -61,6 +61,7 @@
     line-height: 37px;
     padding-bottom: 10%;
     padding-right: 10%;
+    text-align: left;
   }
 
   .velkommen p {
@@ -71,9 +72,9 @@
   }
 
   .udforsk {
-    background-image: url(imgs/udforsk\ bg\ mobil.png),
+    background-image: url(imgs/small/udforsk\ bg\ mobil.png),
       linear-gradient(#0b0d0f, #0b0d0f);
-    background-size: 400px auto;
+    background-size: 600px auto;
     height: 153px;
     text-align: center;
   }
@@ -89,16 +90,16 @@
   .card_box {
     margin-left: 60px;
     margin-right: 60px;
-    width: 280px;
+    max-width: 400px;
   }
 
   .card_box p {
     font-size: 22px;
     line-height: 24px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
   }
 
   .grid_cards div {
@@ -107,6 +108,9 @@
 
   .grid_cards {
     padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .grid_cards a {
@@ -130,5 +134,15 @@
 
   footer .logo img {
     height: 40px;
+  }
+
+  .bot_menu {
+    display: flex;
+  }
+
+  .bot_nav {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
   }
 }
