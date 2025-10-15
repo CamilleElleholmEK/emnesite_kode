@@ -159,11 +159,12 @@ h1 {
 
 .afsnit_resultater_titel h2 {
   font-family: Special Elite, serif;
+  font-weight: 500;
   color: #0d0d0f;
 }
 
 .afsnit_resultater_titel a {
-  text-decoration: underline;
+  text-decoration: underline 3px;
   text-decoration-color: #0d0d0f;
 }
 
@@ -171,11 +172,36 @@ h1 {
 .søg,
 .sorter {
   background-color: #0d0d0f;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .arkiv {
   width: auto;
   background-image: url(imgs/beton.png);
+  background-repeat: repeat;
+}
+
+.afsnit_resultater_titel {
+  display: flex;
+  justify-content: space-between;
+}
+
+.afsnit_resultater h3 {
+  font-family: Special Elite, serif;
+  font-weight: 500;
+  color: #0d0d0f;
+}
+
+.afsnit_preview {
+  font-family: League Spartan, sans-serif;
+  color: #0d0d0f;
+}
+
+.afsnit_preview a {
+  float: right;
+  color: #0d0d0f;
 }
 
 /****************************************** Footer **********************************/

@@ -95,6 +95,80 @@
     text-align: center;
   }
 
+  /************************************ Arkiv *******************************************/
+
+  .grid_1-3 {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 10px;
+  }
+
+  .grid_1-2-1 {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 10px;
+  }
+
+  .arkiv {
+    padding-left: 5%;
+    padding-top: 10%;
+  }
+  .arkiv h1 {
+    font-size: 75px;
+    padding-bottom: 5%;
+    padding-right: 10%;
+    text-align: left;
+    font-weight: 500;
+  }
+
+  .filtre,
+  .søg,
+  .sorter {
+    font-size: 30px;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+  }
+  .filtre img {
+    width: auto;
+    height: 30px;
+  }
+  .søg img {
+    width: auto;
+    height: 30px;
+  }
+  .sorter img {
+    width: auto;
+    height: 30px;
+  }
+
+  .afsnit_resultater {
+    margin-top: 10px;
+    margin-right: 20px;
+    padding: 10px;
+    margin-bottom: 0px;
+  }
+  .grid_1-2 {
+    background-image: url(imgs/large/afsnit\ card\ desktop.png);
+    margin-bottom: 20px;
+    padding: 10px;
+    width: auto;
+    height: 220px;
+  }
+
+  .afsnit_resultater_titel {
+    display: flex;
+  }
+  .afsnit_resultater_titel h2 {
+    font-size: 50px;
+    font-weight: 500;
+    margin-top: 8px;
+  }
+  .afsnit_resultater_titel img {
+    height: 50px;
+    width: auto;
+  }
+
   /*********************************** Footer ************************/
 
   .bot_nav {

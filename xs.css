@@ -1,5 +1,11 @@
-@media screen and (min-width: 601px) and (max-width: 1200px) {
-  /*********************************************** Header ***********************************************/
+@media screen and (max-width: 400px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  /********************************* Header ************************************/
   .menu {
     display: none;
   }
@@ -42,42 +48,46 @@
     font-size: 24px;
   }
 
-  /******************************************** Forside ***************************************/
+  /******************************************* Forside ****************************************************/
 
   .velkommen {
-    background-image: url(imgs/medium/forside\ bg\ tablet.png);
-    background-size: auto;
-    background-position: right;
-    height: 1100px;
+    background-image: url(imgs/small/mobil\ baggrund.png);
+    background-size: 600px auto;
+    height: 798px;
     padding-left: 5%;
     padding-top: 10%;
   }
 
+  .velkommen img {
+    height: auto;
+  }
+
   .velkommen h1 {
-    font-size: 60px;
-    line-height: 52px;
-    padding-bottom: 6%;
-    padding-right: 12%;
+    font-size: 35px;
+    line-height: 37px;
+    padding-bottom: 10%;
+    padding-right: 10%;
     text-align: left;
+    font-weight: 500;
   }
 
   .velkommen p {
-    font-size: 32px;
-    line-height: 35px;
-    padding-bottom: 6%;
-    padding-right: 45%;
+    font-size: 22px;
+    line-height: 24px;
+    padding-bottom: 10%;
+    padding-right: 35%;
   }
 
   .udforsk {
-    background-image: url(imgs/medium/udforsk\ bg\ tablet.png),
+    background-image: url(imgs/small/udforsk\ bg\ mobil.png),
       linear-gradient(#0b0d0f, #0b0d0f);
-    background-size: auto;
-    height: 240px;
+    background-size: 600px auto;
+    height: 153px;
     text-align: center;
   }
 
   .udforsk span {
-    font-size: 70px;
+    font-size: 52px;
   }
 
   #space {
@@ -85,17 +95,18 @@
   }
 
   .card_box {
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 60px;
+    margin-right: 60px;
+    max-width: 400px;
   }
 
   .card_box p {
-    font-size: 28px;
-    line-height: 30px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    font-size: 22px;
+    line-height: 24px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
   }
 
   .grid_cards div {
@@ -104,21 +115,23 @@
 
   .grid_cards {
     padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .grid_cards a {
-    font-size: 28px;
-    margin-top: 25px;
+    font-size: 22px;
+    margin-top: 15px;
     margin-bottom: 30px;
-    margin-left: 15%;
-    margin-right: 15%;
+    width: 280px;
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 10px;
     padding-bottom: 10px;
   }
 
-  /********************************************* Arkiv ****************************************************/
+  /**************************************** Arkiv ******************************************/
 
   .filtre_placeholder {
     display: none;
@@ -129,65 +142,61 @@
     padding-top: 10%;
   }
   .arkiv h1 {
-    font-size: 65px;
-    line-height: 70px;
-    padding-bottom: 5%;
+    font-size: 60px;
+    line-height: 37px;
+    padding-bottom: 10%;
     padding-right: 10%;
     text-align: left;
     font-weight: 500;
   }
-
   .filtre,
   .søg,
   .sorter {
-    font-size: 35px;
+    font-size: 25px;
     padding: 10px;
     margin-bottom: 10px;
     margin-right: 20px;
   }
   .filtre img {
     width: auto;
-    height: 35px;
+    height: 25px;
   }
   .søg img {
     width: auto;
-    height: 35px;
+    height: 25px;
   }
   .sorter img {
     width: auto;
-    height: 35px;
+    height: 25px;
   }
-
   .afsnit_resultater {
-    margin-top: 10px;
+    margin-bottom: 10px;
     margin-right: 20px;
     padding: 10px;
-    margin-bottom: 0px;
   }
   .grid_1-2 {
-    background-image: url(imgs/medium/afsnit\ card\ tablet.png);
+    background-image: url(imgs/small/afsnit\ card\ mobile.png);
     margin-bottom: 20px;
     padding: 10px;
     width: auto;
     height: 474px;
   }
-
   .afsnit_resultater_titel {
     display: flex;
   }
   .afsnit_resultater_titel h2 {
-    font-size: 55px;
+    font-size: 50px;
     font-weight: 500;
-    margin-top: 6px;
+    margin-top: 8px;
   }
   .afsnit_resultater_titel img {
-    height: 55px;
+    height: 50px;
     width: auto;
   }
 
   .afsnit_resultater h3 {
-    font-size: 45px;
-    margin-top: 8px;
+    font-size: 35px;
+    margin-top: 20px;
     margin-bottom: 15px;
   }
 
@@ -196,41 +205,28 @@
   }
 
   .lyt_knap_large img {
-    height: 50px;
+    height: 42px;
     margin-right: 10px;
   }
 
-  .afsnit_preview a {
-    font-size: 31px;
+  .afsnit_preview {
+    font-size: 22px;
+    line-height: 24px;
   }
 
-  .afsnit_preview p {
-    font-size: 31px;
-    line-height: 34px;
-  }
+  /*********************************** Footer ************************/
 
-  .grid_1-3 {
-    margin-bottom: 0;
-  }
-
-  /********************************************* Footer *********************************************/
-
-  .bot_nav {
-    margin-left: 20px;
-    margin-right: 20px;
-    font-size: 25px;
-  }
-
-  footer li {
-    margin-top: 10px;
+  footer .logo img {
+    height: 40px;
   }
 
   .bot_menu {
     display: flex;
   }
 
-  footer .logo img {
-    width: 200px;
-    height: auto;
+  .bot_nav {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
   }
 }

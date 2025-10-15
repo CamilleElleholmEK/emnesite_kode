@@ -1,4 +1,10 @@
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 401px) and (max-width: 600px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
   /********************************* Header ************************************/
   .menu {
     display: none;
@@ -62,6 +68,7 @@
     padding-bottom: 10%;
     padding-right: 10%;
     text-align: left;
+    font-weight: 500;
   }
 
   .velkommen p {
@@ -130,6 +137,91 @@
     display: none;
   }
 
+  .arkiv {
+    padding-left: 5%;
+    padding-top: 10%;
+  }
+  .arkiv h1 {
+    font-size: 60px;
+    line-height: 37px;
+    padding-bottom: 10%;
+    padding-right: 10%;
+    text-align: left;
+    font-weight: 500;
+  }
+  .filtre,
+  .søg,
+  .sorter {
+    font-size: 25px;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+  }
+  .filtre img {
+    width: auto;
+    height: 25px;
+  }
+  .søg img {
+    width: auto;
+    height: 25px;
+  }
+  .sorter img {
+    width: auto;
+    height: 25px;
+  }
+  .afsnit_resultater {
+    margin-top: 10px;
+    margin-right: 20px;
+    padding: 10px;
+    margin-bottom: 0px;
+  }
+  .grid_1-2 {
+    background-image: url(imgs/small/afsnit\ card\ mobile.png);
+    margin-bottom: 20px;
+    padding: 10px;
+    width: auto;
+    height: 474px;
+  }
+  .afsnit_resultater_titel {
+    display: flex;
+  }
+  .afsnit_resultater_titel h2 {
+    font-size: 50px;
+    font-weight: 500;
+    margin-top: 8px;
+  }
+  .afsnit_resultater_titel img {
+    height: 50px;
+    width: auto;
+  }
+
+  .afsnit_resultater h3 {
+    font-size: 35px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+
+  .lyt_links {
+    margin-bottom: 15px;
+  }
+
+  .lyt_knap_large img {
+    height: 42px;
+    margin-right: 10px;
+  }
+
+  .afsnit_preview a {
+    font-size: 26px;
+  }
+
+  .afsnit_preview p {
+    font-size: 26px;
+    line-height: 28px;
+  }
+
+  .grid_1-3 {
+    margin-bottom: 0;
+  }
   /*********************************** Footer ************************/
 
   footer .logo img {
