@@ -145,28 +145,171 @@
   .afsnit_resultater {
     margin-top: 10px;
     margin-right: 20px;
-    padding: 10px;
+
     margin-bottom: 0px;
   }
+
+  .afsnit_resultater_header {
+    background-image: url(imgs/large/afsnit\ card\ desktop\ s.png);
+    background-position: right;
+    height: 220px;
+  }
+
+  .afsnit_preview {
+    background-image: url(imgs/large/afsnit\ card\ desktop\ l.png);
+    background-position: left;
+    height: 220px;
+  }
+
   .grid_1-2 {
-    background-image: url(imgs/large/afsnit\ card\ desktop.png);
-    margin-bottom: 20px;
-    padding: 10px;
     width: auto;
     height: 220px;
+    display: grid;
+    grid-template-columns: 326px 1fr;
   }
 
   .afsnit_resultater_titel {
     display: flex;
   }
   .afsnit_resultater_titel h2 {
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 500;
-    margin-top: 8px;
+    padding: 8px 0 0 15px;
   }
   .afsnit_resultater_titel img {
-    height: 50px;
+    height: 40px;
     width: auto;
+    padding: 8px 15px 0 0;
+  }
+
+  .afsnit_resultater h3 {
+    font-size: 35px;
+    padding: 10px 0 0 15px;
+  }
+
+  .lyt_links {
+    padding: 20px 0 0 15px;
+  }
+
+  .lyt_knap_large img {
+    height: 40px;
+    padding-right: 10px;
+  }
+
+  .afsnit_preview a {
+    font-size: 23px;
+    padding: 0 15px 0 0;
+  }
+
+  .afsnit_preview p {
+    font-size: 23px;
+    line-height: 24px;
+    padding: 8px 15px 0 15px;
+  }
+
+  /************************************** Afsnit *****************************/
+
+  .afsnit {
+    padding: 10% 5% 10% 5%;
+  }
+
+  .afsnit_overskrift h1 {
+    font-size: 80px;
+    line-height: 84px;
+    padding-bottom: 5%;
+    padding-right: 10%;
+    text-align: left;
+    font-weight: 500;
+    min-width: 500px;
+  }
+
+  .afsnit .afsnit_overskrift p {
+    font-size: 50px;
+  }
+
+  .afsnit_overskrift a {
+    font-size: 42px;
+    margin-top: 46px;
+    margin-bottom: 46px;
+    padding: 10px 20px 10px 20px;
+  }
+
+  .afsnit_overskrift {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .afsnit_beskrivelse {
+    background-image: url(imgs/large/afsnit\ beskrivelse\ large.png);
+    margin-top: 20px;
+    font-size: 41px;
+    padding: 20px;
+    box-shadow: -8px 8px 10px rgba(0, 0, 0, 0.686);
+  }
+
+  .afsnit_beskrivelse p {
+    margin-top: 25px;
+    line-height: 50px;
+  }
+
+  .afsnit_beskrivelse .beskrivelse {
+    font-size: 45px;
+    margin-top: 0;
+  }
+
+  .fed {
+    font-weight: 600;
+  }
+
+  .grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 75px;
+  }
+
+  .historie-1,
+  .historie-2 {
+    background-image: url(imgs/large/historie\ baggrund\ large.png);
+    height: 1099px;
+    margin-top: 40px;
+  }
+
+  .historie-titel {
+    padding: 50px;
+    padding: 35px 35px 0 35px;
+  }
+
+  .historie-titel h2 {
+    font-size: 50px;
+  }
+
+  .historie-titel img {
+    height: 70px;
+    margin-top: -22px;
+  }
+
+  .grid_1-1 h3 {
+    font-size: 38px;
+    padding: 3px 0 20px 35px;
+  }
+
+  .afsnit dl {
+    padding: 0 0 0 35px;
+    font-size: 36px;
+    line-height: 37px;
+  }
+
+  .afsnit dt {
+    margin-top: 17px;
+  }
+
+  .afsnit h4,
+  .nøgle {
+    font-size: 36px;
+    line-height: 37px;
+    font-weight: 400;
+    padding: 0 0 0 35px;
+    margin-top: 20px;
   }
 
   /*********************************** Footer ************************/
