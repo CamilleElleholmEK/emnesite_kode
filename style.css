@@ -4,6 +4,13 @@
   box-sizing: border-box;
 }
 
+.construction {
+  font-family: League Spartan, sans-serif;
+  color: #ececec;
+  font-size: 50px;
+  margin: 20px;
+}
+
 /************************************ Header **********************************/
 
 header {
