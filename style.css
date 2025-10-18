@@ -76,14 +76,6 @@ nav {
 
 /********************************************* Forside **************************************/
 
-/* .forside {
-  background-image: url(imgs/basis/black_texture_seamless_512.webp);
-  background-repeat: repeat;
-  background-size: auto;
-  background-attachment: fixed;
-  background-color: #0d0d0f;
-} */
-
 .velkommen h1 {
   font-family: Special Elite;
   color: #ececec;
@@ -180,7 +172,7 @@ h1 {
 .arkiv,
 .afsnit {
   width: auto;
-  background-image: url(imgs/beton.png);
+  background-image: url(imgs/beton.webp);
   background-repeat: repeat;
 }
 

@@ -11,7 +11,7 @@
   /******************************* Forside **********************************/
 
   .velkommen {
-    background-image: url(imgs/large/desktop\ baggrund.png);
+    background-image: url(imgs/large/desktop\ baggrund.webp);
     background-size: auto;
     background-position: right;
     height: 1090px;
@@ -24,6 +24,7 @@
     line-height: 78px;
     padding-bottom: 10%;
     padding-right: 45%;
+    text-align: left;
   }
 
   .velkommen p {
@@ -37,7 +38,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(imgs/large/udforsk\ bg\ desktop.png),
+    background-image: url(imgs/large/udforsk\ bg\ desktop.webp),
       linear-gradient(#0b0d0f, #0b0d0f);
     background-size: auto;
     height: 258px;
@@ -150,13 +151,13 @@
   }
 
   .afsnit_resultater_header {
-    background-image: url(imgs/large/afsnit\ card\ desktop\ s.png);
+    background-image: url(imgs/large/afsnit\ card\ desktop\ s.webp);
     background-position: right;
     height: 220px;
   }
 
   .afsnit_preview {
-    background-image: url(imgs/large/afsnit\ card\ desktop\ l.png);
+    background-image: url(imgs/large/afsnit\ card\ desktop\ l.webp);
     background-position: left;
     height: 220px;
   }
@@ -240,7 +241,7 @@
   }
 
   .afsnit_beskrivelse {
-    background-image: url(imgs/large/afsnit\ beskrivelse\ large.png);
+    background-image: url(imgs/large/afsnit\ beskrivelse\ large.webp);
     margin-top: 20px;
     font-size: 41px;
     padding: 20px;
@@ -269,7 +270,7 @@
 
   .historie-1,
   .historie-2 {
-    background-image: url(imgs/large/historie\ baggrund\ large.png);
+    background-image: url(imgs/large/historie\ baggrund\ large.webp);
     height: 1099px;
     margin-top: 40px;
   }
