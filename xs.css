@@ -55,7 +55,7 @@
   /******************************************* Forside ****************************************************/
 
   .velkommen {
-    background-image: url(imgs/small/mobil\ baggrund.webp);
+    background-image: url(../imgs/small/mobil\ baggrund.webp);
     background-size: 600px auto;
     height: 798px;
     padding-left: 5%;
@@ -83,7 +83,7 @@
   }
 
   .udforsk {
-    background-image: url(imgs/small/udforsk\ bg\ mobil.webp),
+    background-image: url(../imgs/small/udforsk\ bg\ mobil.webp),
       linear-gradient(#0b0d0f, #0b0d0f);
     background-size: 600px auto;
     height: 153px;
@@ -179,7 +179,7 @@
     padding: 10px;
   }
   .grid_1-2 {
-    background-image: url(imgs/small/afsnit\ card\ mobile.webp);
+    background-image: url(../imgs/small/afsnit\ card\ mobile.webp);
     margin-bottom: 20px;
     padding: 10px;
     width: auto;
@@ -249,7 +249,7 @@
   }
 
   .afsnit_beskrivelse {
-    background-image: url(imgs/small/afsnit\ beskrivelse\ small.webp);
+    background-image: url(../imgs/small/afsnit\ beskrivelse\ small.webp);
     font-size: 25px;
     padding: 20px;
     box-shadow: -8px 8px 10px rgba(0, 0, 0, 0.686);
@@ -271,7 +271,7 @@
 
   .historie-1,
   .historie-2 {
-    background-image: url(imgs/small/historie\ baggrund\ small.webp);
+    background-image: url(../imgs/small/historie\ baggrund\ small.webp);
     height: 1099px;
     margin-top: 40px;
   }

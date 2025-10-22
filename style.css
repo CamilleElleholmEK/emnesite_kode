@@ -52,7 +52,7 @@ nav {
 
 .menu a {
   display: block;
-  padding: 10px;
+  padding: 20px;
   color: #ececec;
   text-decoration: none;
   transition: color 0.3s;
@@ -60,7 +60,16 @@ nav {
 }
 
 .menu a:hover {
-  color: #b31312;
+  background-image: radial-gradient(#3c0101, transparent 80%);
+  border-radius: 20px;
+}
+
+.anbefalinger_hover,
+.arkiv_hover,
+.process_hover,
+.om_hover {
+  background-image: radial-gradient(#3c0101, transparent 80%);
+  border-radius: 20px;
 }
 
 .burger {
@@ -79,6 +88,16 @@ nav {
 }
 .burger {
   display: none;
+}
+
+.brødkrumme {
+  font-family: League Spartan, sans-serif;
+  color: #ececec;
+}
+
+.brødkrumme a {
+  color: #ececec;
+  text-decoration-thickness: 2px;
 }
 
 /********************************************* Forside **************************************/
@@ -167,6 +186,11 @@ h1 {
   text-decoration-color: #0d0d0f;
 }
 
+.afsnit_resultater_titel a:hover {
+  background-image: radial-gradient(#3c0101, transparent 80%);
+  border-radius: 20px;
+}
+
 .filtre,
 .søg,
 .sorter {
@@ -179,7 +203,7 @@ h1 {
 .arkiv,
 .afsnit {
   width: auto;
-  background-image: url(imgs/beton.webp);
+  background-image: url(../imgs/beton.webp);
   background-repeat: repeat;
 }
 
@@ -202,6 +226,11 @@ h1 {
 .afsnit_preview a {
   float: right;
   color: #0d0d0f;
+}
+
+.afsnit_preview a:hover {
+  background-image: radial-gradient(#3c0101, transparent 80%);
+  border-radius: 20px;
 }
 
 /****************************************** Afsnit ****************************************/
@@ -265,20 +294,24 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+
   background-color: #700303;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
   font-family: League Spartan, sans-serif;
   color: #ececec;
+  padding: 20px;
 }
 
 footer a {
   color: #ececec;
   text-decoration: none;
+  padding: 20px;
+  padding: 20px 20px 20px 0;
 }
 
 footer a:hover {
-  color: #c6c5c5;
+  background-image: radial-gradient(#3c0101, transparent 80%);
+  border-radius: 20px;
 }
 
 footer li {
