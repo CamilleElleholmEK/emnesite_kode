@@ -49,7 +49,7 @@
   /******************************************** Forside ***************************************/
 
   .velkommen {
-    background-image: url(../imgs/medium/forside_bg_tablet.webp);
+    background-image: url(imgs/medium/forside_bg_tablet.webp);
     background-size: auto;
     background-position: right;
     height: 1100px;
@@ -73,7 +73,7 @@
   }
 
   .udforsk {
-    background-image: url(../imgs/medium/udforsk\ bg\ tablet.webp),
+    background-image: url(imgs/medium/udforsk\ bg\ tablet.webp),
       linear-gradient(#0b0d0f, #0b0d0f);
     background-size: auto;
     height: 240px;
@@ -169,7 +169,7 @@
     margin-bottom: 0px;
   }
   .grid_1-2 {
-    background-image: url(../imgs/medium/afsnit\ card\ tablet.webp);
+    background-image: url(imgs/medium/afsnit\ card\ tablet.webp);
     margin-bottom: 20px;
     padding: 10px;
     width: auto;
@@ -248,7 +248,7 @@
   }
 
   .afsnit_beskrivelse {
-    background-image: url(../imgs/medium/afsnit\ beskrivelse\ medium.webp);
+    background-image: url(imgs/medium/afsnit\ beskrivelse\ medium.webp);
     font-size: 35px;
     padding: 20px;
     box-shadow: -8px 8px 10px rgba(0, 0, 0, 0.686);
@@ -270,7 +270,7 @@
 
   .historie-1,
   .historie-2 {
-    background-image: url(../imgs/medium/historie\ baggrund\ medium.webp);
+    background-image: url(imgs/medium/historie\ baggrund\ medium.webp);
     height: 1099px;
     margin-top: 40px;
   }
